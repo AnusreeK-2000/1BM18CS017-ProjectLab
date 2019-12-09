@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <head>
         <title>Product</title>
-        <link rel="stylesheet" type="text/css" href="prodstyle.css">
+        <link rel="stylesheet" type="text/css" href="css/prodstyle.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
@@ -47,7 +47,7 @@
                         <div id="product-slider" class="carousel slide carousel-fade" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="categories2.jpeg" class="d-block" align="left">
+                                    <img src="images/categories2.jpeg" class="d-block" align="left">
                                 </div>
                             </div>  
                         </div>
@@ -66,8 +66,8 @@
                         <p><b>Condition:</b>New</p>
                         
                         <label>Quantity:</label>
-                        <input type="text" value="1">
-                        <button type="button" class="btn btn-primary">Add to cart</button>
+                        <input type="number" value="1">
+                        <button type="button" class="btn btn-primary" onclick="alfunc()">Add to cart</button>
                     
                 </div>
             </div>
@@ -83,6 +83,13 @@
                         McGraw Hill Education is an Indian academic publishing company involved in releasing expertly authored books for students studying in India. McGraw Hill books present material which goes beyond traditional books and offer students an edge so that they can excel in their educational endeavors. The company has also released books like NTSE Practice Papers Class-X and Study Package for NTSE Class VIII.</p>
             </div>
         </section>
+
+        <script>
+            function alfunc()
+                {
+                    alert("item has been added to cart");
+                }
+        </script>
         
         
   
